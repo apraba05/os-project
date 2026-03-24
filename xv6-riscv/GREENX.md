@@ -390,3 +390,23 @@ system call or interrupt — where the kernel can clean up properly.
 time. Without the spinlock, a read of `ticks_used` from `getpenergy` on one
 core could race with an increment from a timer interrupt on another core,
 producing a partially-written, corrupted value. The lock prevents this.
+
+---
+
+## Statement of Contribution
+
+All three team members contributed equally to the design, implementation, testing, and documentation of the GreenX project.
+
+| Member | Contribution |
+|--------|-------------|
+| Ashan  | Equal contribution |
+| Nolan  | Equal contribution |
+| Sujay  | Equal contribution |
+
+We, the undersigned, confirm that the above statement accurately reflects the contributions of each team member.
+
+**Ashan** ___________________________
+
+**Nolan** ___________________________
+
+**Sujay** ___________________________
